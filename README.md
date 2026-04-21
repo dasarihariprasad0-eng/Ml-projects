@@ -42,4 +42,4 @@ using natural language processing techniques.
 - **Type:** Text Classification 
 - **Dataset:** SMS Spam Collection Dataset (UCI / Kaggle)
 - **Algorithm:** Naive Bayes
-- **Goal:** Filter unwanted spam messages automatically
+- **Goal:** Filter messages and predict whether they are spam or ham
