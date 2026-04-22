@@ -8,8 +8,8 @@ from sklearn.model_selection import train_test_split
 # Load and train model
 @st.cache_resource
 def train_model():
-    df = pd.read_csv("spam.csv")
-    df = df[["v1", "v2"]]
+    df = pd.read_csv("spam.csv", encoding="latin-1")
+st.write(df.columns.tolist())
     df.columns = ["Category", "Message"]
     cv = CountVectorizer()
     x = cv.fit_transform(df["Message"])
