@@ -5,5 +5,5 @@ numpy
 matplotlib
 yfinance
 tensorflow-cpu
-keras
+
 
