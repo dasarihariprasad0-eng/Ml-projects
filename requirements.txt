@@ -1,4 +1,7 @@
 
+google-generativeai
+Pillow
+
 streamlit
 yfinance
 tensorflow-cpu==2.15.0
